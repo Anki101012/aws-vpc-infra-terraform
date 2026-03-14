@@ -1,6 +1,6 @@
 # Terraform AWS VPC Infrastructure
 
-- This project demonstrates the provisioning of a custom AWS VPC architecture using Terraform. It includes public and private subnets, Internet Gateway, NAT Gateway, route tables, security groups, and EC2 instances to simulate a real-world bastion and private workload setup.
+- Provisioned a custom AWS VPC using Terraform with public and private subnets, Internet Gateway, NAT Gateway, route tables, security groups, and EC2 instances. Validated bastion-based SSH access to a private EC2 instance and confirmed outbound internet connectivity from the private subnet by installing Nginx through the NAT Gateway path.
 ---
 
 ## Architecture Overview
@@ -57,4 +57,5 @@
 The following access pattern was tested:
 - SSH from local machine to Public EC2
 - SSH from Public EC2 to Private EC2
+- Installed NGINIX to check Private EC2 connection to Internet
 
