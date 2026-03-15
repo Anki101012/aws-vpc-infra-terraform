@@ -5,6 +5,7 @@
 
 ## Architecture Overview
 
+![AWS Multi Account Architecture](architecture/architecture-diagram.png)
 ---
 
 ## AWS Resources Created
